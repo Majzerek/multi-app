@@ -12,7 +12,7 @@ export const Main = () => {
           color={'secondary'}>Welcome</Typography>
       <Box display={'flex'} gap={2}>
         <Button variant='nav'
-          onClick={() => navigate('/todo')}>
+          onClick={() => navigate('/multi-app/todo')}>
           <Typography variant='body1'>Go to TodoList</Typography>
         </Button>
       </Box>
