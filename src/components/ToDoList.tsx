@@ -57,7 +57,7 @@ export const ToDoList = () => {
             <Button variant='contained'
                 color='secondary'
                 sx={{ mt: 1 }}
-                onClick={() => navigate('/')}>Back</Button>
+                onClick={() => navigate('/multi-app/')}>Back</Button>
         </Container>
     )
 }
