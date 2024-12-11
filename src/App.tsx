@@ -7,11 +7,11 @@ export const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-         <Route element={<Main />} path='/' />
+         <Route element={<Main />} path='/multi-app/' />
         <Route element={
           <TodoProvider>
             <ToDoList />
-          </TodoProvider>} path='/todo' />
+          </TodoProvider>} path='/multi-app/todo' />
       </Routes>
     </BrowserRouter>
   )
