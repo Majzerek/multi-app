@@ -7,11 +7,11 @@ export const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<Main />} path='/' />
+        <Route element={<Main />} path='https://majzerek.github.io/multi-app/' />
         <Route element={
           <TodoProvider>
             <ToDoList />
-          </TodoProvider>} path='/todo' />
+          </TodoProvider>} path='https://majzerek.github.io/multi-app//todo' />
       </Routes>
     </BrowserRouter>
   )
