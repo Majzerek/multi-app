@@ -17,8 +17,8 @@ export const ToDoList = () => {
   
     return (
 
-        <Container sx={{ height: '100vh' }}>
-            <Typography variant='h1' color='secondary'>Todo App</Typography>
+        <Container maxWidth='md' sx={{ height: '100vh',background: 'radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(33,105,189,1) 100%)'}}>
+            <Typography variant='h1' color='primary'>Todo App</Typography>
 
             <form onSubmit={handleSubmit}>
                 <FormControl sx={{mb:2, mt:2}} >
