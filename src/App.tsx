@@ -11,7 +11,7 @@ export const App = () => {
         <Route element={
           <TodoProvider>
             <ToDoList />
-          </TodoProvider>} path='https://majzerek.github.io/multi-app//todo' />
+          </TodoProvider>} path='https://majzerek.github.io/multi-app/todo' />
       </Routes>
     </BrowserRouter>
   )
