@@ -11,7 +11,7 @@ export const App = () => {
         <Route element={
           <TodoProvider>
             <ToDoList />
-          </TodoProvider>} path='/multi-app/todo' />
+          </TodoProvider>} path='/multi-app/todo/' />
       </Routes>
     </BrowserRouter>
   )
